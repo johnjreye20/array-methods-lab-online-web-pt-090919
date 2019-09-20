@@ -4,23 +4,21 @@ def using_include
 end
 
 def using_sort
-  using_sort = ["second", "fifth", "first"]
-  using_sort.sort
+  array.sort
 end
 
 def using_reverse
-  using_reverse = ["nine", "eight", "seven"]
-  using_reverse,reverse
+  array.reverse
 end
 
 def using_first(array)
-
+  array.first
 end
 
 def using_last(array)
-
+  array.last
 end
 
 def using_size(array)
-
+  array.size
 end
